@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:divider="?android:attr/dividerVertical"
+    android:dividerPadding="12dip"
+    android:showDividers="none">
+
+    <!-- id must match corresponding menu item id -->
+    <LinearLayout
+        android:id="@+id/action_refresh"
+        style="@style/EditEventCustomActionButton">
+        
+        <TextView
+            android:text="Refresh"
+            style="@style/EditEventCustomRefreshActionButtonText" />
+
+    </LinearLayout>
+
+    <!-- id must match corresponding menu item id -->
+   <LinearLayout android:id="@+id/action_news" style="@style/EditEventCustomActionButton">
+
+        
+        <TextView android:text="NEWS" style="@style/EditEventCustomActionButtonText" />
+
+    </LinearLayout>
+
+ <LinearLayout android:id="@+id/action_news1" style="@style/EditEventCustomActionButton">
+
+        
+        <TextView android:text="" style="@style/EditEventCustomActionButtonText" />
+
+    </LinearLayout>
+   
+   
+</LinearLayout>
